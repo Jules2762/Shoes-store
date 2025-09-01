@@ -14,5 +14,5 @@ const admin_route = computed(() => {
 
 console.log(admin_route)
 
-
+console.log(admin_route)
 </script>
