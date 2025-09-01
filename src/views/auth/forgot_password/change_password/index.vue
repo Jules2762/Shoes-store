@@ -1,0 +1,3 @@
+<template>
+    Change password
+</template>

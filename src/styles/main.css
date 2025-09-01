@@ -1,0 +1,84 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+* {
+  @apply text-sm;
+}
+
+h1 {
+  @apply text-6xl font-bold;
+}
+
+h4 {
+  @apply text-2xl font-semibold;
+}
+
+h6 {
+  @apply text-lg font-semibold;
+}
+
+p {
+  @apply text-xs text-gray-500;
+}
+
+input:is([class='custom']) {
+  @apply p-1 outline-none;
+}
+
+input:not([class='custom']) {
+  @apply h-9 rounded-md border border-gray-300 p-1 focus:outline-2
+    focus:outline-purple-400;
+}
+
+textarea {
+  @apply min-h-24 rounded-md border border-gray-300 p-1 focus:outline-2
+    focus:outline-purple-400;
+}
+
+select {
+  @apply h-9 rounded-md border border-gray-300 p-1 focus:outline-2
+    focus:outline-purple-400;
+}
+
+label {
+  @apply text-xs text-gray-400;
+}
+
+button {
+  @apply h-10 rounded-md px-4 font-semibold;
+}
+
+.btn-primary {
+  @apply bg-purple-600 text-white;
+}
+
+.btn-secondary {
+  @apply bg-purple-300 text-purple-600;
+}
+
+.btn-outlined {
+  @apply border border-purple-600 text-purple-600;
+}
+
+.card {
+  @apply rounded-md shadow-md shadow-gray-400;
+}
+
+.scrolled {
+  @apply fixed top-0 left-0 z-10;
+}
+
+.app-container {
+  @apply flex w-10/12 flex-col gap-y-6 justify-self-center overflow-y-hidden;
+}
+
+.shop_filter {
+  @apply w-[400px] flex flex-col gap-y-3;
+}
+
+.shop_filter > .section_title {
+  @apply border-b border-black;
+}

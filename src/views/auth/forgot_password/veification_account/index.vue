@@ -1,0 +1,3 @@
+<template>
+    Verification Account
+</template>
