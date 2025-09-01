@@ -12,7 +12,7 @@ const admin_route = computed(() => {
     return routes.matched.find((item) => item.name === routes.name).children
 })
 
-console.log(routes.ma)
+console.log(admin_route)
 
 
 </script>
